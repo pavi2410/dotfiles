@@ -116,4 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/powerlevel10k_modern.omp.json)"
+eval "$(starship init bash)"
+. "$HOME/.cargo/env"
