@@ -10,7 +10,7 @@ fi
 
 mise --version
 
-ls -s ./mise.toml ~
+ln -s ./mise.toml ~
 pushd ~
 mise install
 popd
