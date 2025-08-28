@@ -16,4 +16,4 @@ mise install
 mise dr
 
 BASHRC="$(pwd)/.bashrc"
-echo 'source "$BASHRC"' >> ~/.bashrc
+echo "source \"$BASHRC\"" >> ~/.bashrc
