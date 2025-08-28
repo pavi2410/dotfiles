@@ -9,11 +9,11 @@ if [[ ":$PATH:" != *":HOME/.local/bin:"* ]]; then
 fi
 
 mise --version
-mise trust .
 
+ls -s ./mise.toml ~
+pushd ~
 mise install
-
-mise dr
+popd
 
 BASHRC="$(pwd)/.bashrc"
 echo "source \"$BASHRC\"" >> ~/.bashrc
